@@ -1,0 +1,9 @@
+import org.openqa.selenium.By;
+
+public class CP_003_Buscar_Productos {
+
+	public static void main(String[] args) {
+		driver.findElement(By.id("search_query_top")).sendKeys("Danny");
+	}
+	
+}

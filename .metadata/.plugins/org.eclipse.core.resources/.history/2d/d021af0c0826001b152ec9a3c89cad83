@@ -1,0 +1,64 @@
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class SteDefinitionCP_009 {
+	
+	@Given("^I am in sign in page$")
+	public void i_am_in_sign_in_page() throws Throwable {
+	    System.out.println("Open page sign in");
+	}
+	
+	//http://automationpractice.com/index.php?controller=my-account
+
+	@When("^I enter email \"([^\"]*)\"$")
+	public void i_enter_email(String arg1) throws Throwable {
+	    System.out.println("Type email");
+	}
+
+	@When("^I press Create an account$")
+	public void i_press_Create_an_account() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^Redirect to account-creation page$")
+	public void redirect_to_account_creation_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^check Mrs$")
+	public void check_Mrs() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^fill in \"([^\"]*)\" with \"([^\"]*)\"$")
+	public void fill_in_with(String arg1, String arg2) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^Select in \"([^\"]*)\" with \"([^\"]*)\"$")
+	public void select_in_with(String arg1, String arg2) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^fill \"([^\"]*)\" with \"([^\"]*)\"$")
+	public void fill_with(String arg1, String arg2) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I should see \"([^\"]*)\"$")
+	public void i_should_see(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+
+
+}

@@ -1,0 +1,26 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ByIdOrName;
+
+public class CP_009_Registrar_Usuario {
+
+	public static void main(String[] args) {
+	
+		//set driver path
+		System.setProperty("webdriver.chrome.driver", "E:\\Documents\\drivers\\chromedriver.exe");
+		//implementación del driver
+		WebDriver driver = new ChromeDriver();
+		driver.get("http:\\automationpractice.com");
+		//By locator = new By.ByClassName("login");
+		//WebElement element = driver.findElement(locator);
+		//element.click();
+		driver.findElement(By.className("login")).click();
+		driver.findElement(By.id("email_create")).sendKeys("emailprueba@gmail.com");
+		driver.findElement(By.id("SubmitCreate")).click();
+		String driver.findElement(By.className("page-heading")).getText();
+		
+	}
+	
+}

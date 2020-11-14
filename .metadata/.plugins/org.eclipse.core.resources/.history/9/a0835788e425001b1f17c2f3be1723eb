@@ -1,0 +1,25 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class CP_005_Agregar_productos {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "E:\\Documents\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http:\\automationpractice.com");
+		driver.findElement(By.cssSelector("[data-id-product='1']")).click();
+		Thread.sleep(5000);
+		By css = By.cssSelector("#layer_cart div.layer_cart_product col-xs-12 col-md-6>h2");
+		WebElement element = driver.findElement(css);
+		String text = element.getText();
+		String resultado = "Product successfully added to your shopping cart";
+		if (text.equals(resultado)) {
+			System.out.println("Prueba Exitosa");
+		}else {
+			System.out.println("Prueba Fallida");
+		}
+	
+	}
+	
+}

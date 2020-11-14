@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCP_009" project="Historia-Usuario" tests="24" started="24" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCP_009" time="0.048">
+    <testsuite name="Feature: Register user" time="0.048">
+      <testsuite name="Scenario: Testing register user" time="0.048">
+        <testcase name="Given I am in sign in page" classname="Scenario: Testing register user" time="0.005"/>
+        <testcase name="When I enter email &quot;emailprueba@gmail.com&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And I press Create an account" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="Then Redirect to account-creation page" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And check Mrs" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And fill in &quot;Firts Name(required)&quot; with &quot;Danny&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And fill in &quot;Last Name(required)&quot; with &quot;Hernandez&quot;" classname="Scenario: Testing register user" time="0.002"/>
+        <testcase name="And fill in &quot;Email(required)&quot; with &quot;emailprueba@gmail.com&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And fill in &quot;Password(required)&quot; with &quot;pruebatecnica1&quot;" classname="Scenario: Testing register user" time="0.0"/>
+        <testcase name="And Select in &quot;Date of Birth&quot; with &quot;4 octuber 1989&quot;" classname="Scenario: Testing register user" time="0.0"/>
+        <testcase name="And fill in &quot;Firts Name(required)&quot; with &quot;Danny&quot;" classname="Scenario: Testing register user" time="0.0"/>
+        <testcase name="And fill in &quot;Last Name(required)&quot; with &quot;Hernandez&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And fill in &quot;Company&quot; with &quot;UdeA&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And fill in &quot;Address(required)&quot; with &quot;Cra 2 1234&quot;" classname="Scenario: Testing register user" time="0.002"/>
+        <testcase name="And fill in &quot;Address (Line2)&quot; with &quot;Cra 3 1234&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And fill in &quot;City(required)&quot; with &quot;Itagui&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And Select in &quot;State&quot; with &quot;Alabama&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And fill in &quot;Zip/Postal Code(required)&quot; with &quot;00000&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And Select in &quot;Country&quot; with &quot;United States&quot;" classname="Scenario: Testing register user" time="0.002"/>
+        <testcase name="And fill in &quot;Additional information&quot; with &quot;NN&quot;" classname="Scenario: Testing register user" time="0.002"/>
+        <testcase name="And fill in &quot;Home phone&quot; with &quot;0&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And fill in &quot;Mobile phone(required)&quot; with &quot;3148109382&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And fill in &quot;Assign an address alias for future reference.&quot; with &quot;My Address&quot;" classname="Scenario: Testing register user" time="0.001"/>
+        <testcase name="And I should see &quot;Welcome to your account. Here you can manage all of your personal information and orders.&quot;" classname="Scenario: Testing register user" time="0.015"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

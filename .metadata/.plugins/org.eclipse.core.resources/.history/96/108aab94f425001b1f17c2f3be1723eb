@@ -1,0 +1,55 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class CP_014_Comprar_Con_Usuario {
+
+	public static void main(String[] args) throws InterruptedException {
+	
+		//set driver path
+		System.setProperty("webdriver.chrome.driver", "E:\\Documents\\drivers\\chromedriver.exe");
+		//implementación del driver
+		WebDriver driver = new ChromeDriver();
+		driver.get("http:\\automationpractice.com");
+		//By locator = new By.ByClassName("login");
+		//WebElement element = driver.findElement(locator);
+		//element.click();
+		driver.findElement(By.className("login")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.id("email")).sendKeys("emailpruebapruebaprueba1234@gmail.com");
+		driver.findElement(By.id("passwd")).sendKeys("pruebatecnica1");
+		driver.findElement(By.id("SubmitLogin")).click();
+		//wait for next page to load
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.get("http:\\automationpractice.com");
+		driver.findElement(By.cssSelector("[data-id-product='1']")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[3]/div/p[2]/a[1]/span")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[3]/div/form/p/button/span")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.id("uniform-cgv")).click();
+		driver.findElement(By.xpath(("//button[contains(@name, 'processAddress')]"))).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath(("//a[contains(@title, 'Pay by bank wire')]"))).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath(("//button[contains(@class, 'Pay by bank wire')]"))).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[3]/div/form/p/button/span")).click();
+		Thread.sleep(5000);
+		String ConfirmationText=driver.findElement(By.xpath("//div[@id='center_column']/p[@class='alert alert-success']")).getText();
+		if (ConfirmationText.contains("complete")) {
+			System.out.println("Prueba Exitosa");
+		}else {
+			System.out.println("Prueba Fallida");
+		}
+	}
+	
+}

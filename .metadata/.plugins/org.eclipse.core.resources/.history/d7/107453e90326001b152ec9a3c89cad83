@@ -1,0 +1,12 @@
+Feature: Register user
+  The user is able to register in te web page
+
+  @tag1
+  Scenario: Testing register user
+    Given I am in sign in page
+    When I enter email "emailprueba@gmail.com"
+    And I press Create an account
+    Then Redirect to account-creation page
+    And check Mrs
+    And fill in "Firts Name(required)" with "Danny"
+    And fill in "Firts Name(required)" with "Danny"

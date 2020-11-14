@@ -1,0 +1,38 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ByIdOrName;
+import org.openqa.selenium.support.ui.Select;
+
+public class CP_009_Registrar_Usuario {
+
+	public static void main(String[] args) {
+	
+		//set driver path
+		System.setProperty("webdriver.chrome.driver", "E:\\Documents\\drivers\\chromedriver.exe");
+		//implementación del driver
+		WebDriver driver = new ChromeDriver();
+		driver.get("http:\\automationpractice.com");
+		//By locator = new By.ByClassName("login");
+		//WebElement element = driver.findElement(locator);
+		//element.click();
+		driver.findElement(By.className("login")).click();
+		driver.findElement(By.id("email_create")).sendKeys("emailprueba@gmail.com");
+		driver.findElement(By.id("SubmitCreate")).click();
+		//wait for next page to load
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String pageHeading = driver.findElement(By.className("page-heading")).getText();
+		System.out.println("Page Heading: "+pageHeading);
+		
+		WebElement eleState = driver.findElement(By.name("id_state"));//solo busca el elemento
+		Select selectState = new Select(eleState);
+		selectState.selectByValue("1");
+	}
+	
+}
