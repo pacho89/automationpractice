@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCP_008" project="Historia-Usuario" tests="6" started="6" failures="0" errors="0" ignored="5">
+  <testsuite name="TestCP_008" time="0.011">
+    <testsuite name="Feature: Delete item" time="0.011">
+      <testsuite name="Scenario Outline: Testing delete item" time="0.011">
+        <testsuite name="Examples:" time="0.011">
+          <testsuite name="| Faded Short Sleeve T-shirts |" time="0.011" incomplete="true">
+            <skipped/>
+            <testcase name="Given I am in the principal page" classname="| Faded Short Sleeve T-shirts |" time="0.004"/>
+            <testcase name="When I press Cart" classname="| Faded Short Sleeve T-shirts |" time="0.002" ignored="true"/>
+            <testcase name="Then Redirect to cart page" classname="| Faded Short Sleeve T-shirts |" time="0.001" ignored="true"/>
+            <testcase name="And I search &quot;Faded Short Sleeve T-shirts&quot;" classname="| Faded Short Sleeve T-shirts |" time="0.001" ignored="true"/>
+            <testcase name="And I press icon of trash" classname="| Faded Short Sleeve T-shirts |" time="0.001" ignored="true"/>
+            <testcase name="Then Show message Your shopping cart is empty." classname="| Faded Short Sleeve T-shirts |" time="0.001" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

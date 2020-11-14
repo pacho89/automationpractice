@@ -1,0 +1,9 @@
+Feature: Buy with user
+  The user is able to buy
+
+  Scenario Outline: Testing buy with user
+    Given I am in sign in page
+    When I dont enter email
+    And I press Create an account
+    Then Show invalid email address
+    

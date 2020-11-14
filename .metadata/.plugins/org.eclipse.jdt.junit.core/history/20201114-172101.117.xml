@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCP_018" project="Historia-Usuario" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCP_018" time="0.079">
+    <testsuite name="Feature: Change Address" time="0.079">
+      <testsuite name="Scenario Outline: Testing change address" time="0.079">
+        <testsuite name="Examples:" time="0.079">
+          <testsuite name="| Cra 2 12345 |" time="0.079">
+            <testcase name="Given I am in the principal page" classname="| Cra 2 12345 |" time="0.004"/>
+            <testcase name="When I press View my customer account" classname="| Cra 2 12345 |" time="0.005"/>
+            <testcase name="And Redirec to customer account" classname="| Cra 2 12345 |" time="0.002"/>
+            <testcase name="And I press update" classname="| Cra 2 12345 |" time="0.006"/>
+            <testcase name="And fill in Address(required) with &quot;Cra 2 12345&quot;" classname="| Cra 2 12345 |" time="0.005"/>
+            <testcase name="Then I press save" classname="| Cra 2 12345 |" time="0.006"/>
+            <testcase name="And show Cra 2 12345" classname="| Cra 2 12345 |" time="0.051"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

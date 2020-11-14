@@ -1,0 +1,13 @@
+Feature: Buy with user
+  The user is able to buy
+
+  Scenario Outline: Testing buy with user
+    Given I am in the cart
+    When I press proceed to checkout
+    And I press Create an account two times
+    And check box i agree
+    And press Proceed to chekout2
+    And press Pay by bank
+    Then press I confirm my order
+    And show complete
+    

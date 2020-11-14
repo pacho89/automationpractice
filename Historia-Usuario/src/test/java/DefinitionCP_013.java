@@ -1,0 +1,48 @@
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class DefinitionCP_013 {
+
+
+@When("^Redirect page to order$")
+public void redirect_page_to_order() throws Throwable {
+    System.out.println("Redirect to order page");
+}
+
+@Then("^Press Proceed to checkout$")
+public void press_Proceed_to_checkout() throws Throwable {
+    System.out.println("Press checkout");
+}
+
+@Then("^press Proceed to chekout$")
+public void press_Proceed_to_chekout() throws Throwable {
+	System.out.println("Press checkout");
+}
+
+@Then("^check box i agree$")
+public void check_box_i_agree() throws Throwable {
+	System.out.println("press check box");
+}
+
+@Then("^press Proceed to chekout(\\d+)$")
+public void press_Proceed_to_chekout(int arg1) throws Throwable {
+	System.out.println("press checkout");
+}
+
+@Then("^press Pay by bank$")
+public void press_Pay_by_bank() throws Throwable {
+	System.out.println("Press pay");
+}
+
+@Then("^press I confirm my order$")
+public void press_I_confirm_my_order() throws Throwable {
+	System.out.println("PRess confirm order");
+}
+
+@Then("^show complete$")
+public void show_complete() throws Throwable {
+	System.out.println("Show complete");
+}
+
+
+}

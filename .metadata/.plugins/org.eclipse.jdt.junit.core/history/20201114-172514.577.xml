@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCP_019" project="Historia-Usuario" tests="20" started="20" failures="0" errors="0" ignored="17">
+  <testsuite name="TestCP_019" time="0.056">
+    <testsuite name="Feature: Change Address" time="0.056">
+      <testsuite name="Scenario Outline: Testing change address" time="0.056">
+        <testsuite name="Examples:" time="0.056">
+          <testsuite name="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.056" incomplete="true">
+            <skipped/>
+            <testcase name="Given I am in the principal page" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.004"/>
+            <testcase name="When I press View my customer account" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.004"/>
+            <testcase name="And Redirec to customer account" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.003"/>
+            <testcase name="And I press MY ADDRESS" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.001" ignored="true"/>
+            <testcase name="And I press Add new address" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.003" ignored="true"/>
+            <testcase name="And fill in Firts Name(required) with &quot;Danny&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.002" ignored="true"/>
+            <testcase name="And fill in Last Name(required) with &quot;Hernandez&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.002" ignored="true"/>
+            <testcase name="And fill in Company with &quot;UdeA&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.011" ignored="true"/>
+            <testcase name="And fill in Address(required) with &quot;Cra 2 1234&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.002" ignored="true"/>
+            <testcase name="And fill in Address (Line2) with &quot;Cra 3 1234&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.003" ignored="true"/>
+            <testcase name="And fill in City(required) with &quot;Itagui&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.002" ignored="true"/>
+            <testcase name="And Select in State with &quot;Alabama&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.002" ignored="true"/>
+            <testcase name="And fill in Zip/Postal Code(required) with &quot;00000&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.002" ignored="true"/>
+            <testcase name="And Select in Country with &quot;United States&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.002" ignored="true"/>
+            <testcase name="And fill in Additional information with &quot;NN&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.002" ignored="true"/>
+            <testcase name="And fill in Home phone with &quot;0&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.002" ignored="true"/>
+            <testcase name="And fill in Mobile phone(required) with &quot;3148109382&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.004" ignored="true"/>
+            <testcase name="And fill in Assign an address alias for future reference. with &quot;My Address2&quot;" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.003" ignored="true"/>
+            <testcase name="Then I press save" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.001" ignored="true"/>
+            <testcase name="And show MY ADDRESS2" classname="| Danny | Hernandez | UdeA | Cra 2 1234 | Cra 3 1234 | Itagui | Alabama | 00000 | United States | NN | 0 | 3148109382 | My Address2 |" time="0.001" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

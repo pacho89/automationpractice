@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCP_011" project="Historia-Usuario" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCP_011" time="0.074">
+    <testsuite name="Feature: Register user invalid" time="0.074">
+      <testsuite name="Scenario Outline: Testing register user invalid" time="0.074">
+        <testsuite name="Examples:" time="0.074">
+          <testsuite name="| emailprueba@gmail.com |" time="0.074">
+            <testcase name="Given I am in sign in page" classname="| emailprueba@gmail.com |" time="0.01"/>
+            <testcase name="When I enter email &quot;emailprueba@gmail.com&quot;" classname="| emailprueba@gmail.com |" time="0.003"/>
+            <testcase name="And I press CREATE AN ACCOUNT" classname="| emailprueba@gmail.com |" time="0.002"/>
+            <testcase name="Then I press Create an Account" classname="| emailprueba@gmail.com |" time="0.002"/>
+            <testcase name="And I press Register" classname="| emailprueba@gmail.com |" time="0.004"/>
+            <testcase name="And Show invalid message There are 8 errors" classname="| emailprueba@gmail.com |" time="0.053"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

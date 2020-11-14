@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCP_014" project="Historia-Usuario" tests="1" started="0" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCP_014" incomplete="true">
+    <testsuite name="Feature: Buy with user" incomplete="true">
+      <testcase name="Scenario Outline: Testing buy with user" classname="Scenario Outline: Testing buy with user" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

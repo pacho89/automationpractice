@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCP_009" project="Historia-Usuario" tests="1" started="0" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCP_009" incomplete="true">
+    <testsuite name="Feature: Register user" incomplete="true">
+      <testsuite name="Scenario Outline: Testing register user" incomplete="true">
+        <testcase name="Examples:" classname="Examples:" incomplete="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

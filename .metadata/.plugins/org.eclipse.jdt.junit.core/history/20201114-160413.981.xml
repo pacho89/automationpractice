@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCP_007" project="Historia-Usuario" tests="6" started="6" failures="0" errors="0" ignored="4">
+  <testsuite name="TestCP_007" time="0.019">
+    <testsuite name="Feature: Preview" time="0.019">
+      <testsuite name="Scenario Outline: Testing preview" time="0.019">
+        <testsuite name="Examples:" time="0.019">
+          <testsuite name="| Printed Summer Dress |" time="0.019" incomplete="true">
+            <skipped/>
+            <testcase name="Given I am in the principal page" classname="| Printed Summer Dress |" time="0.008"/>
+            <testcase name="When I search this product &quot;Printed Summer Dress&quot;" classname="| Printed Summer Dress |" time="0.003"/>
+            <testcase name="And I press quick view top of the item" classname="| Printed Summer Dress |" time="0.002" ignored="true"/>
+            <testcase name="And I change the size to M" classname="| Printed Summer Dress |" time="0.002" ignored="true"/>
+            <testcase name="And I press add to cart" classname="| Printed Summer Dress |" time="0.003" ignored="true"/>
+            <testcase name="Then Show popup with message Product successfully added to your shopping cart" classname="| Printed Summer Dress |" time="0.001" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

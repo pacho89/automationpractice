@@ -1,0 +1,9 @@
+Feature: Buy without user
+  Validate if the user is able to buy wothout user
+
+  Scenario Outline: Testing buy without user
+    Given I am in the principal page
+    When I dont enter email
+    And I press Create an account
+    Then Show invalid email address
+    

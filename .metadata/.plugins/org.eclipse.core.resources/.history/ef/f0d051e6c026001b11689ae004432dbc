@@ -1,0 +1,9 @@
+Feature: Register user invalid
+  Validate if the user can register without email
+
+  Scenario Outline: Testing register user invalid
+    Given I am in sign in page
+    When I enter email
+    And I press Create an account
+    Then Show invalid email address
+    

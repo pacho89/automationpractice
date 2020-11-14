@@ -1,0 +1,12 @@
+Feature: Add items
+  The add items to cart
+
+  Scenario Outline: Testing add items
+    Given I am in the principal page
+    When I search this product "<item>"
+    And I press add to cart
+    Then Show popup with message Product successfully added to your shopping cart
+    
+    Examples:
+    | item  										 |
+    | Faded Short Sleeve T-shirts|

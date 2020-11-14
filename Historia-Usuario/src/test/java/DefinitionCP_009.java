@@ -1,4 +1,3 @@
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -108,6 +107,11 @@ public class DefinitionCP_009 {
 	@Then("^fill in Assign an address alias for future reference\\. with \"([^\"]*)\"$")
 	public void fill_in_Assign_an_address_alias_for_future_reference_with(String arg1) throws Throwable {
 		System.out.println("Type name for Address");
+	}
+	
+	@Then("^press Create an Account$")
+	public void press_Create_an_Account() throws Throwable {
+		System.out.println("Press create account");
 	}
 
 	@Then("^I should see \"([^\"]*)\"$")

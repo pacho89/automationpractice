@@ -1,0 +1,13 @@
+Feature: Register user
+  Validate if the user can register without email
+
+  Scenario Outline: Testing register user
+    Given I am in sign in page
+    When I dont enter email
+    And I press Create an account
+    Then Show invalid email address
+    
+    
+    Examples:
+    | name |lastName |email									|passwd				 |date					|bName|bLastName|company|address   |address2	|city	 |state	 |code |country			 |information|phone|mobile    |alias	   |
+    | Danny|Hernandez|emailprueba@gmail.com	|pruebatecnica1|4 octuber 1989|Danny|Hernandez|UdeA		|Cra 2 1234|Cra 3 1234|Itagui|Alabama|00000|United States|NN				 |0		 |3148109382|My Address|

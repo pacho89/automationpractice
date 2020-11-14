@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCP_004" project="Historia-Usuario" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCP_004" time="0.062">
+    <testsuite name="Feature: Dont find items" time="0.062">
+      <testsuite name="Scenario Outline: Testing dont find items" time="0.062">
+        <testsuite name="Examples:" time="0.062">
+          <testsuite name="| camison |" time="0.062">
+            <testcase name="Given I am in the principal page" classname="| camison |" time="0.008"/>
+            <testcase name="When I enter in input search &quot;camison&quot;" classname="| camison |" time="0.002"/>
+            <testcase name="And I press icon search" classname="| camison |" time="0.003"/>
+            <testcase name="Then show 0 results have been found." classname="| camison |" time="0.049"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

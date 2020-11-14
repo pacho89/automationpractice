@@ -1,0 +1,32 @@
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class DefinitionCP_018 {
+
+	@When("^I press View my customer account$")
+	public void i_press_View_my_customer_account() throws Throwable {
+		System.out.println("Press customer account");
+	}
+
+	@When("^Redirec to customer account$")
+	public void redirec_to_customer_account() throws Throwable {
+	    System.out.println("Redirect to account");
+	}
+
+	@When("^I press update$")
+	public void i_press_update() throws Throwable {
+		System.out.println("Press update");
+	}
+
+	@Then("^I press save$")
+	public void i_press_save() throws Throwable {
+		System.out.println("press save");
+	}
+
+	@Then("^show Cra (\\d+) (\\d+)$")
+	public void show_Cra(int arg1, int arg2) throws Throwable {
+		System.out.println("Show change address");
+	}
+
+
+}

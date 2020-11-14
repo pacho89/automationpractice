@@ -1,0 +1,15 @@
+Feature: Change Address
+  The user is able to change address
+
+  Scenario Outline: Testing change address
+    Given I am in the principal page
+    When I press View my customer account
+    And Redirec to customer account
+    And I press MY ADDRESS
+    AndI press delete in MY ADDRESS2 
+    Then I press in alert Aceptar 
+    And show MY ADDRESS2
+    
+    Examples:
+    |bName|bLastName|company|address   |address2	|city	 |state	 |code |country			 |information|phone|mobile    |alias	   |
+    |Danny|Hernandez|UdeA		|Cra 2 1234|Cra 3 1234|Itagui|Alabama|00000|United States|NN				 |0		 |3148109382|My Address2|

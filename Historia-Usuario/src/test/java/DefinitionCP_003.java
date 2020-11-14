@@ -1,0 +1,27 @@
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class DefinitionCP_003 {
+
+	@Given("^I am in the principal page$")
+	public void i_am_in_the_principal_page() throws Throwable {
+	    System.out.println("Open principal page");
+	}
+
+	@When("^I enter in input search \"([^\"]*)\"$")
+	public void i_enter_in_input_search(String arg1) throws Throwable {
+		System.out.println("Type in search the name item");
+	}
+
+	@When("^I press icon search$")
+	public void i_press_icon_search() throws Throwable {
+		System.out.println("Put search icon");
+	}
+
+	@Then("^show (\\d+) result has been found$")
+	public void show_result_has_been_found(int arg1) throws Throwable {
+		System.out.println("Show reault 1 item");
+	}
+
+}

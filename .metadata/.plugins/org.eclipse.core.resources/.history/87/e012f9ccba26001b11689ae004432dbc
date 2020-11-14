@@ -1,0 +1,12 @@
+Feature: Add items
+  The add items to cart
+
+  Scenario Outline: Testing add items
+    Given I am in the principal page
+    When I search ""Faded Short Sleeve T-shirts""
+    And I press icon search
+    Then show 0 results have been found.
+    
+    Examples:
+    | search |
+    | camison|
